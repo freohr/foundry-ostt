@@ -1,3 +1,6 @@
 {
-    "MODULE.hello": "hello"
+  "OSTT.table.treasure.type": "treasure table",
+  "OSTT.table.treasure.roll": "Roll Treasure",
+  "OSTT.table.treasure.title": "Treasure Table Configuration",
+  "OSTT.table.treasure.chance": "Chance (%)"
 }

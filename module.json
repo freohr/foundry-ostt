@@ -13,10 +13,11 @@
     }
   ],
   "dependencies": [
-
+    "_document-sheet-registrar",
+    "lib-wrapper"
   ],
   "conflicts": [
-    
+
   ],
   "esmodules": [
     "./ostt.js"

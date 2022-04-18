@@ -11,10 +11,8 @@ export const warn = (...args) => {
 };
 export const error = (...args) => console.error(`${osttFoundryNamespace} |`, ...args);
 
-export const i18n = (key) => {
-  return game.i18n.localize(key);
-};
+export const i18n = (key) => game.i18n.localize(key);
 
-export const setting = (key) => {
-  return game.settings.get(osttFoundryNamespace, key);
-};
+export const setting = (key) => game.settings.get(osttFoundryNamespace, key);
+
+export const osttModulePath = (relativePath) => `modules/ostt/${relativePath}`;

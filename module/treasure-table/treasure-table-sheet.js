@@ -1,3 +1,4 @@
+import * as helpers from '../helpers.js';
 import RollTableType from './treasure-table.js';
 
 /**
@@ -13,7 +14,7 @@ export class TreasureTableConfig extends RollTableConfig {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ['sheet', 'roll-table-config', 'treasure-table-config'],
-      template: 'templates/treasure-table/treasure-table-config.html',
+      template: helpers.osttModulePath('templates/treasure-table/treasure-table-config.html'),
     });
   }
 
